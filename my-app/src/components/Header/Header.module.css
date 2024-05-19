@@ -1,0 +1,22 @@
+.headerStyle {
+  background-color: rgb(24, 24, 25);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+.burgerStyle {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.linkToMainStyle {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 28px;
+}

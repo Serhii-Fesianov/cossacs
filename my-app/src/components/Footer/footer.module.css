@@ -1,0 +1,15 @@
+.footerStyles {
+  background-color: rgb(24, 24, 25);
+}
+
+.socialLinkList {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.socialLink {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}

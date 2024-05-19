@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className={styles.headerStyle}>
       <Link to="/" className={styles.linkToMainStyle}>
-        Cossacs
+        Cossacs <span>⚔</span>
       </Link>
       <button className={styles.burgerStyle}></button>
     </header>

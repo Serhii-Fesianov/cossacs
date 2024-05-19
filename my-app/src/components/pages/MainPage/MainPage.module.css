@@ -1,0 +1,23 @@
+.WrapperMainContent {
+  background-color: #0ebb69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listNavigationMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.linkNavigation {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}
