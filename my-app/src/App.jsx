@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
 import { MainPage } from "./components/pages/MainPage/MainPage";
+import { SharedLayout } from "./components/SharedLayout/SharedLayout";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/cossacs" element={<MainPage />} />
+        <Route path="/" element={<SharedLayout />} />
+        <Route path="cossacs" element={<MainPage />} />
       </Routes>
     </Router>
   );
