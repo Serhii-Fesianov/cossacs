@@ -3,6 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border: 2px solid gold;
+  height: 50px;
 }
 
 .socialLinkList {
@@ -18,4 +20,25 @@
   text-decoration: none;
   color: aliceblue;
   font-size: 18px;
+}
+
+.wrapperList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logOutButton {
+  width: 70px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: #0ebb69;
+  color: white;
 }

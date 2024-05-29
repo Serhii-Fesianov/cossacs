@@ -1,5 +1,5 @@
 import React from "react";
-import Icons from "./sprite.svg";
+import Icons from "../../assets/sprite.svg";
 
 const Icon = ({ id, className }) => {
   console.log(Icons);
