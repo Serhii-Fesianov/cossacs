@@ -1,8 +1,8 @@
 import React from "react";
-import { Header } from "../Header/Header";
-import { Footer } from "../Footer/Footer";
+import { Header } from "../../Header/Header";
+import { Footer } from "../../Footer/Footer";
 import { Link } from "react-router-dom";
-import styles from "./Welcompage.module.css";
+import styles from "./WelcomPage.module.css";
 
 export const WelcomPage = () => {
   return (
