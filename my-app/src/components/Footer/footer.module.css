@@ -26,6 +26,10 @@
   text-decoration: none;
   color: aliceblue;
   font-size: 18px;
+  &:hover,
+  &:focus {
+    color: rgb(164, 164, 246);
+  }
 }
 
 .wrapperList {
@@ -47,4 +51,8 @@
   border-radius: 8px;
   background-color: #0ebb69;
   color: white;
+  &:hover,
+  &:focus {
+    background-color: rgb(164, 164, 246);
+  }
 }
