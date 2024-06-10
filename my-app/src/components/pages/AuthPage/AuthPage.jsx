@@ -7,27 +7,30 @@ export const AuthPage = () => {
   return (
     <>
       <Header />
-      <div>
-        <h1>Login now!</h1>
-        <img src="" alt="Welcom card" />
-        <form>
-          <div>
-            <h3>Nickname</h3>
+      <div className={styles.wrapperAuthContent}>
+        <img
+          src={require("../../../assets/images/cossac on horse.png")}
+          alt="Welcom card"
+          className={styles.imageAuth}
+        />
+        <form className={styles.wrapperForm}>
+          <div className={styles.wrapperInputs}>
+            <h2 className={styles.titleAuth}>Login Now!</h2>
+            <h3>Email</h3>
             <input
               type="text"
-              placeholder="Nickname"
+              placeholder="Email"
               className={styles.inputStyle}
               required
             />
-          </div>
-          <div>
             <h3>Password</h3>
             <input
               type="password"
-              placeholder="password"
+              placeholder="Password"
               className={styles.inputStyle}
               required
             />
+            <button className={styles.loginButton}>Login</button>
           </div>
         </form>
       </div>

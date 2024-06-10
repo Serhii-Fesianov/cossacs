@@ -9,7 +9,7 @@ export const MainPage = () => {
       <Header />
       <div className={styles.WrapperMainContent}>
         <img
-          src={require("../../../assets/images/Hero.jpg")}
+          src={require("../../../assets/images/cossac with horse.png")}
           alt="hero"
           className={styles.heroImage}
         />

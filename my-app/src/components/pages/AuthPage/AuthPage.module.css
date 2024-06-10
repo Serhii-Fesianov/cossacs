@@ -1,0 +1,97 @@
+.wrapperAuthContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(239, 193, 187);
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapperAuthContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(239, 193, 187);
+  }
+}
+
+.wrapperInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapperForm {
+  margin: 20px 0 20px 0;
+}
+
+@media only screen and (min-width: 1120px) {
+  .wrapperForm {
+    margin: 20px 0 20px 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapperForm {
+    margin: 20px 0 20px 140px;
+  }
+}
+
+.imageAuth {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 374px) {
+  .imageAuth {
+    width: 200px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .imageAuth {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .imageAuth {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .imageAuth {
+    width: 800px;
+  }
+}
+
+.inputStyle {
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  border: solid rgb(166, 156, 156);
+}
+
+.loginButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: navy;
+  color: white;
+  &:hover,
+  &:focus {
+    background-color: rgb(164, 164, 246);
+  }
+}
+
+.titleAuth {
+  font-size: 30px;
+}
