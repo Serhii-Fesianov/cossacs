@@ -9,7 +9,11 @@ export const WelcomPage = () => {
     <div>
       <Header />
       <div className={styles.WrapperWelcom}>
-        <img src="" alt="welcom-Hero" className={styles.WelcomImage} />
+        <img
+          src={require("../../../assets/images/cossac with magic.png")}
+          alt="welcom-Hero"
+          className={styles.WelcomImage}
+        />
         <ul className={styles.NavigationList}>
           <li>
             <Link to="/auth" className={styles.LinkNavStyles}>

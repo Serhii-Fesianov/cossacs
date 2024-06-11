@@ -30,7 +30,7 @@
 
 .linkNavigation {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
   font-size: 25px;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   &:hover,
@@ -40,9 +40,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
   .linkNavigation {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 

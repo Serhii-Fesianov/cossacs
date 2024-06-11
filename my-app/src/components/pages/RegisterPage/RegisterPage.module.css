@@ -1,0 +1,101 @@
+.wrapperRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(239, 193, 187);
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapperRegister {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapperRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(239, 193, 187);
+    height: 100vh;
+  }
+}
+
+.registerPicture {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 374px) {
+  .registerPicture {
+    width: 200px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .registerPicture {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .registerPicture {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .registerPicture {
+    width: 800px;
+  }
+}
+
+.wrapperForm {
+  margin: 20px 0 20px 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapperForm {
+    margin: 20px 0 20px 140px;
+  }
+}
+
+.wrapperInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputStyle {
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  border: solid rgb(166, 156, 156);
+}
+
+.tittleRegister {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registerButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: navy;
+  color: white;
+  &:hover,
+  &:focus {
+    background-color: rgb(164, 164, 246);
+  }
+}
