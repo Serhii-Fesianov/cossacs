@@ -69,12 +69,12 @@
 
 @media only screen and (min-width: 1100px) {
   .heroImage {
-    width: 900px;
+    width: 800px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .heroImage {
-    width: 1000px;
+    width: 900px;
   }
 }
