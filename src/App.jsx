@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<SharedLayout />} />
-        <Route path="mainpage" element={<MainPage />} />
+        <Route path="cossacs" element={<MainPage />} />
         <Route path="auth" element={<AuthPage />} />
         <Route path="register" element={<RegisterPage />} />
       </Routes>
