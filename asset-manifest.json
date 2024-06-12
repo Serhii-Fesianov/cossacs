@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cossacs/static/css/main.e23f318e.css",
-    "main.js": "/cossacs/static/js/main.05dd685c.js",
+    "main.js": "/cossacs/static/js/main.7929148b.js",
     "static/media/cossac with magic.png": "/cossacs/static/media/cossac with magic.beedd124e5204e0109bf.png",
     "static/media/cossac with horse.png": "/cossacs/static/media/cossac with horse.57a16d5b5e05d950da46.png",
     "static/media/cossac on horse.png": "/cossacs/static/media/cossac on horse.b6c84b8893df6e19ad33.png",
     "index.html": "/cossacs/index.html",
     "static/media/sprite.svg": "/cossacs/static/media/sprite.eadb1bb49050ab57e9da6d2ae480ba75.svg",
     "main.e23f318e.css.map": "/cossacs/static/css/main.e23f318e.css.map",
-    "main.05dd685c.js.map": "/cossacs/static/js/main.05dd685c.js.map"
+    "main.7929148b.js.map": "/cossacs/static/js/main.7929148b.js.map"
   },
   "entrypoints": [
     "static/css/main.e23f318e.css",
-    "static/js/main.05dd685c.js"
+    "static/js/main.7929148b.js"
   ]
 }
