@@ -2,9 +2,9 @@ import React from "react";
 import { Header } from "../../Header/Header";
 import { Footer } from "../../Footer/Footer";
 import { Link } from "react-router-dom";
-import styles from "./WelcomPage.module.css";
+import styles from "./WelcomePage.module.css";
 
-export const WelcomPage = () => {
+export const WelcomePage = () => {
   return (
     <div>
       <Header />
