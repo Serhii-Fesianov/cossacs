@@ -19,7 +19,14 @@ export const RegisterPage = () => {
             <h3>Nickname</h3>
             <input
               type="text"
-              placeholder="login"
+              placeholder="nickname"
+              className={styles.inputStyle}
+              required
+            />
+            <h3>Email</h3>
+            <input
+              type="text"
+              placeholder="email"
               className={styles.inputStyle}
               required
             />

@@ -9,9 +9,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<SharedLayout />} />
-        <Route path="cossacs" element={<MainPage />} />
-        <Route path="auth" element={<AuthPage />} />
         <Route path="register" element={<RegisterPage />} />
+        <Route path="auth" element={<AuthPage />} />
+        <Route path="cossacs" element={<MainPage />} />
       </Routes>
     </Router>
   );
